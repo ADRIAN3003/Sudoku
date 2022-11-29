@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Sudoku.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\difficult.txt" />
+    <Content Include="bin\Debug\easy.txt" />
+    <Content Include="bin\Debug\medium.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
